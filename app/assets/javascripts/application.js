@@ -17,10 +17,8 @@
 //= require turbolinks
 //= require modernizr-2.6.2.min
 //= require owl.carousel.min
-//= require plugins
 //= require waypoints.min
 //= require jquery.counterup
-//= require google-map-init
 //= require main
 //= require_tree .
 

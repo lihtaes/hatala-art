@@ -1279,7 +1279,7 @@ Copyright (c) 2015 Daniel Eden
   animation-name: fadeInRightBig;
 }
 
-@-webkit-keyframes fadeInUp {
+/*@-webkit-keyframes fadeInUp {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, 100%, 0);
@@ -1292,7 +1292,7 @@ Copyright (c) 2015 Daniel Eden
     transform: none;
   }
 }
-
+*/
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -1308,7 +1308,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .fadeInUp {
-  -webkit-animation-name: fadeInUp;
+  /*-webkit-animation-name: fadeInUp;*/
   animation-name: fadeInUp;
 }
 

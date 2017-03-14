@@ -6,5 +6,6 @@ class PagesController < ApplicationController
   end
 
   def portfolio
+    @portfolio_items = PortfolioItem.all
   end
 end

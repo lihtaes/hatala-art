@@ -1,2 +1,8 @@
-<h1>Pages#portfolio</h1>
-<p>Find me in app/views/pages/portfolio.html.erb</p>
+<% content = ["<h1>Some of Matt's featured work.</h1>", "<p>Check out some of these priceless pieces</p>"] %>
+
+<%= render 'shared/global_slider', :content => content %>
+
+<%= render partial: 'portfolio', locals: { portfolio_items: @portfolio_items } %>
+
+<%= render 'shared/call_to_action' %>
+
