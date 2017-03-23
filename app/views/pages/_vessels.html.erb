@@ -5,14 +5,14 @@
                 <div class="block">
                   <div class="portfolio-contant">
                     <ul id="portfolio-contant-active">
-                        <% @portfolio_items.each do |portfolio_item| %>
-                        <li class="animated fadeInUp <%= portfolio_item.category %>">
+                        <% @vessels.each do |vessel| %>
+                        <li class="animated fadeInUp <%= vessel.category %>">
                           <a href="#">
-                            <img src="<%= portfolio_item.image %>" alt="">
+                            <img src="<%= vessel.image %>" alt="">
                             <div class="overly">
                               <div class="position-center ">
-                                <h2 class="align-center"><%= portfolio_item.title %></h2>
-                                <p class="align-center"><%= portfolio_item.subtitle %></p>
+                                <h2 class="align-center"><%= vessel.title %></h2>
+                                <p class="align-center"><%= vessel.subtitle %></p>
                               </div>
                             </div>
                           </a>

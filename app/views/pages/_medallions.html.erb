@@ -1,0 +1,27 @@
+<section id="portfolio-work">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="block">
+                  <div class="portfolio-contant">
+                    <ul id="portfolio-contant-active">
+                        <% @medallions.each do |medallion| %>
+                        <li class="animated fadeInUp <%= medallion.category %>">
+                          <a href="#">
+                            <img src="<%= medallion.image %>" alt="">
+                            <div class="overly">
+                              <div class="position-center ">
+                                <h2 class="align-center"><%= medallion.title %></h2>
+                                <p class="align-center"><%= medallion.subtitle %></p>
+                              </div>
+                            </div>
+                          </a>
+                      </li>
+                      <% end %>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>

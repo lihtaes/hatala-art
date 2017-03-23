@@ -7,8 +7,16 @@ module ApplicationHelper
         title: 'home'
       },
             {
-        url: portfolio_path,
-        title: 'portfolio'
+        url: bio_path,
+        title: 'bio'
+      },
+            {
+        url: vessels_path,
+        title: 'vessels'
+      },
+            {
+        url: medallions_path,
+        title: 'wall medallions'
       },
             {
         url: contact_path,

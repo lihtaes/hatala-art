@@ -1,0 +1,7 @@
+<% content = ["<h1>Some of Matt's featured Wall Medallions.</h1>", "<p>The Medallions are larger pieces that can be mounted on walls</p>"] %>
+
+<%= render 'shared/global_slider', :content => content %>
+
+<%= render partial: 'medallions', locals: { medallions: @medallions } %>
+
+<%= render 'shared/call_to_action' %>
